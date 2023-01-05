@@ -159,6 +159,7 @@ tr td th{
     font-weight: 700;
     font-size: 30px;
     margin-top: 30px;
+    padding-left: 30px;
 }
 .resume-content{ 
     display: flex;
@@ -210,4 +211,7 @@ tr td th{
 }
 .contact a{
     text-decoration: none;
+}
+hr {
+    margin: 0 0 0 30px;
 }
