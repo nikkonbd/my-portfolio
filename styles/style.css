@@ -148,9 +148,31 @@ tr td th{
 
 /* Resume Section */
 
-.resume-section{
+.resume-title{
     text-align: center;
     font-weight: 600;
     font-size: 30px;
     margin-top: 60px;
+}
+.resume-content{ 
+    display: flex;
+    gap: 30px;
+}
+.resume-item{
+    margin: 30px 30px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
 }
