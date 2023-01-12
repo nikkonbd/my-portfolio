@@ -220,7 +220,7 @@ hr {
 /* Responsive styles */
 
 @media screen and (max-width: 576px) {
-.skills-container{
+.skills-container, .resume-content{
         flex-direction: column;
     }
 }
