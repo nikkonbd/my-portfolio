@@ -215,3 +215,18 @@ tr td th{
 hr {
     margin: 0 0 0 30px;
 }
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 576px) {
+.skills-container{
+        flex-direction: column;
+    }
+}
+
+/* @media screen and (min-width: 576px) and (max-width: 992px) {
+    .skills-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    } */
