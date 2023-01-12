@@ -205,6 +205,9 @@ tr td th{
     border: 0;
     width: 100%;
     padding: 18px 30px;
+    outline: none;
+    border: 1px solid slategray;
+    border-radius: 10px;
 }
 .section-title{
     margin-bottom: 10px;
@@ -220,7 +223,7 @@ hr {
 /* Responsive styles */
 
 @media screen and (max-width: 576px) {
-.skills-container, .resume-content{
+.skills-container, .resume-content, .contact{
         flex-direction: column;
     }
     .about-info-container{
@@ -238,8 +241,17 @@ hr {
     .section-title{
         padding-top: 40px;
     }
-    .about{
+    .btn-primary{
+        margin-bottom: 40px;
+    }
+    .foter-title{
+        padding-left: 40px
+    }
+    .about, .contact{
         padding: 0 10px;
+    }
+    .contact{
+        gap: 0px;
     }
     .resume .title{
         font-size: 21px;
@@ -248,6 +260,12 @@ hr {
         font-size: 34px;
         margin-top: 73px;
         margin-bottom: 23px;
+    }
+    .contact input[type=text], input[type=email], textarea{
+        width: 80%;
+    }
+    .icon-image{
+        text-align: center;
     }
 }
 
