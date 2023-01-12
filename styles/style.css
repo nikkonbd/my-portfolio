@@ -223,8 +223,11 @@ hr {
 /* Responsive styles */
 
 @media screen and (max-width: 576px) {
-.skills-container, .resume-content, .contact, .header-banner{
+.skills-container, .resume-content, .contact{
         flex-direction: column;
+    }
+    .header-banner{
+        flex-direction: column-reverse;
     }
     nav{
         flex-direction: column;
