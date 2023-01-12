@@ -131,7 +131,7 @@ tr td th{
 }
 .skills{
     background: #FFFFFF;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.10);
     border-radius: 5px;
     padding: 40px;
 }
@@ -223,8 +223,32 @@ hr {
 /* Responsive styles */
 
 @media screen and (max-width: 576px) {
-.skills-container, .resume-content, .contact{
+.skills-container, .resume-content, .contact, .header-banner{
         flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        padding: 0 0;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-banner{
+        margin: 0 0;
+    }
+    .about {
+        margin-top: 0px;
+    }
+    .header-title{
+        padding-left: 20px;
+    }
+    .header-banner img{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 0;
+
     }
     .about-info-container{
         flex-direction: column;
